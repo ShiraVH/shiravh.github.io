@@ -55,6 +55,7 @@ a {
   color: var(--link);
   text-decoration: none;
   transition: color 150ms ease;
+  text-decoration: none;
 }
 /* Links stay clean at rest. Hover/focus adds the underline and changes
    the muted rose to blue. */
