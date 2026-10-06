@@ -87,13 +87,26 @@ a:focus-visible {
 main:focus { outline: none; }
 
 /* INTRO — no banner, monogram, separate menu, or duplicate contact section. */
+
 .intro {
   display: grid;
   grid-template-columns: minmax(0, 1fr) var(--photo-width);
-  grid-template-areas: "name photo" "bio photo";
+  grid-template-areas:
+    "name photo"
+    "bio photo";
   align-items: start;
   column-gap: 2.75rem;
   row-gap: 1rem;
+
+  /* Very subtle background */
+  background: linear-gradient(
+    135deg,
+    rgba(51, 95, 138, 0.055),
+    rgba(145, 98, 118, 0.035)
+  );
+
+  padding: 1.6rem 1.8rem;
+  border-radius: 16px;
 }
 h1 {
   grid-area: name;
