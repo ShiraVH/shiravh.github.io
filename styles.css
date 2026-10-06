@@ -278,3 +278,60 @@ h2 {
   font-size: 0.9rem;
 }
 .site-footer p { margin: 0; }
+
+
+@media (max-width: 40rem) {
+  :root {
+    --page-gutter: 1.35rem;
+    --photo-width-mobile: 8.5rem;
+  }
+
+  .page {
+    margin-block: 2rem 3rem;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "photo"
+      "name"
+      "bio";
+    justify-items: center;
+    row-gap: 1.2rem;
+  }
+
+  .portrait {
+    grid-area: photo;
+    width: var(--photo-width-mobile);
+    margin-inline: auto;
+  }
+
+  h1 {
+    grid-area: name;
+    text-align: center;
+    font-size: clamp(1.8rem, 8vw, 2.2rem);
+    line-height: 1.2;
+  }
+
+  .intro-copy {
+    grid-area: bio;
+    width: 100%;
+  }
+
+  .section-divider {
+    margin-block: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.55rem;
+  }
+
+  .paper + .paper {
+    margin-top: 1.5rem;
+  }
+
+  .paper-links a {
+    min-height: 1.8rem;
+  }
+}
