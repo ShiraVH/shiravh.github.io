@@ -175,7 +175,7 @@ h2 {
   overflow-wrap: break-word;
 }
 .authors, .paper-meta { font-size: 1rem; line-height: 1.55; }
-.author-self { font-weight: 600; }
+/*.author-self { font-weight: 600; }*/
 .paper-meta { margin-top: 0.12rem; color: var(--muted); }
 /* Only clickable text is rose. Venue punctuation, "to appear", and
    presentation distinctions stay neutral; <em> provides light italics. */
