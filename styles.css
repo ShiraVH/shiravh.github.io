@@ -109,7 +109,7 @@ main:focus { outline: none; }
   border-radius: 16px;*/
 }
 
-@media (max-width: 40rem) {
+/*@media (max-width: 40rem) {
   .intro {
     background: linear-gradient(
       135deg,
@@ -120,7 +120,7 @@ main:focus { outline: none; }
     padding: 1.4rem 1.25rem;
     border-radius: 14px;
   }
-}
+}*/
 
 h1 {
   grid-area: name;
