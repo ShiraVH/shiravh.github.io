@@ -91,9 +91,9 @@ main:focus { outline: none; }
 .intro {
   display: grid;
   grid-template-columns: minmax(0, 1fr) var(--photo-width);
-  /*grid-template-areas:
+  grid-template-areas:
     "name photo"
-    "bio photo";*/
+    "bio photo";
   align-items: start;
   column-gap: 2.75rem;
   row-gap: 1rem;
