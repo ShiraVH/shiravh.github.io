@@ -180,7 +180,7 @@ h2 {
 .paper-meta { margin-top: 0.12rem; color: var(--muted); }
 /* Only clickable text is rose. Venue punctuation, "to appear", and
    presentation distinctions stay neutral; <em> provides light italics. */
-.paper-meta p { display: inline; }
+.paper-meta p { display: block; }
 .venue { color: var(--text); }
 .distinction { color: inherit; font-style: italic; font-weight: 400; }
 /* Conference links use the same global rose-to-blue behavior as all links. */
