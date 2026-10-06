@@ -108,6 +108,20 @@ main:focus { outline: none; }
   padding: 1.6rem 1.8rem;
   border-radius: 16px;*/
 }
+
+@media (max-width: 40rem) {
+  .intro {
+    background: linear-gradient(
+      135deg,
+      rgba(51, 95, 138, 0.045),
+      rgba(145, 98, 118, 0.025)
+    );
+
+    padding: 1.4rem 1.25rem;
+    border-radius: 14px;
+  }
+}
+
 h1 {
   grid-area: name;
   color: var(--accent);
