@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="700" viewBox="0 0 560 700" role="img" aria-labelledby="title description">
+  <title id="title">Photo placeholder</title>
+  <desc id="description">A simple pale blue rectangle. Replace this image reference with your own portrait.</desc>
+  <rect width="560" height="700" fill="#f0f4f9"/>
+  <text x="280" y="350" dominant-baseline="middle" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="48" fill="#5b687b">Photo</text>
+</svg>
